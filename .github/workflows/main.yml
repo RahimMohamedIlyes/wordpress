@@ -1,0 +1,26 @@
+name: CodeQL Analysis
+
+on:
+  push:
+    branches:
+      - master # Specify the branch you want to trigger the analysis on
+  pull_request:
+    branches:
+      - master # Specify the branch for pull requests
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v1
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v1
+
+      - name: Analyze
+        uses: github/codeql-action/analyze@v1
