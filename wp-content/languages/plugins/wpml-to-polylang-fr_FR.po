@@ -1,0 +1,75 @@
+# Translation of Plugins - WPML to Polylang - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WPML to Polylang - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-08 14:54:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WPML to Polylang - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "WP SYNTEX"
+msgstr "WP SYNTEX"
+
+#. Description of the plugin
+msgid "Import multilingual data from WPML into Polylang"
+msgstr "Importer les données multilingues depuis WPML vers Polylang"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://polylang.pro"
+msgstr "https://polylang.pro"
+
+#: wpml-to-polylang.php:111
+msgid "WPML Importer"
+msgstr "Importateur WPML"
+
+#. Plugin Name of the plugin
+msgid "WPML to Polylang"
+msgstr "WPML to Polylang"
+
+#: wpml-to-polylang.php:182
+msgid "Import"
+msgstr "Importer"
+
+#: wpml-to-polylang.php:171
+msgid "KO"
+msgstr "Échec"
+
+#: wpml-to-polylang.php:171
+msgid "OK"
+msgstr "Succès"
+
+#: wpml-to-polylang.php:153
+msgid "No language has been created with Polylang"
+msgstr "Aucune langue n’a été créée avec Polylang"
+
+#. translators: %s is the Polylang version
+#: wpml-to-polylang.php:145
+msgid "Polylang %s or later is activated"
+msgstr "Polylang %s ou plus récent est activé"
+
+#: wpml-to-polylang.php:139
+msgid "WPML is deactivated"
+msgstr "WPML est désactivé"
+
+#: wpml-to-polylang.php:134
+msgid "WPML is installed on this website"
+msgstr "WPML est installé sur ce site"
+
+#. translators: %s is the WordPress version
+#: wpml-to-polylang.php:129
+msgid "You are using WordPress %s or later"
+msgstr "Vous utilisez WordPress %s ou plus récent"
+
+#: wpml-to-polylang.php:118
+msgid "Import from WPML to Polylang should have been successul!"
+msgstr "L’import depuis WPML vers Polylang devrait être un succès !"
+
+#: wpml-to-polylang.php:96
+msgid "WPML importer"
+msgstr "Importateur WPML"

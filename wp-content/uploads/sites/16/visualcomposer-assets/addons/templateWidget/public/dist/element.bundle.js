@@ -1,0 +1,1 @@
+(window.vcvWebpackJsonp4x=window.vcvWebpackJsonp4x||[]).push([[1],{"./templateWidget/index.js":function(e,n){}},[["./templateWidget/index.js"]]]);

